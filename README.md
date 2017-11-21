@@ -1,29 +1,24 @@
-# Rails Test App
-#### Requirements:
+# README
 
-* Ruby/Rails versions
-    * ruby ~> '2.4.1'
-    * rails ~> '5.0.2'
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
 
 * System dependencies
-    * PostgreSQL
-    * Node.js ~> '6.0'
-    * Yarn
-    * Elasticsearch ~> '5.0'
-    * Redis
-
-* Services
-    * Sidekiq
 
 * Configuration
-    * You need to copy a versions of `config/*.yml.example` to `config/*.yml`
-      and change the values according to your system configuration
-    * For development run `bin/webpack-dev-server` in parallel with your `rails server`
 
-#### Deploy Tips
-  * Webpack
-    * Use `./bin/yarn install --production` to install all required npm dependencies.
-    * Precompile packs only when something updated in `config/webpack` or `app/javascript`.
-    * Check [Webpacker](https://github.com/rails/webpacker) documentation for further information.
+* Database creation
 
-*Version 27 March 2017 by JetRuby Agency*
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...

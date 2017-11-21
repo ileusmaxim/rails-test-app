@@ -7,47 +7,15 @@
 # Ignore bundler config.
 /.bundle
 
-# Local configuration
-/.env
-/.haml-lint.yml
-/.reek
-/.rubocop.yml
-/.yardoc
-/config/database.yml
-/config/elasticsearch.yml
-
-# IDE projects
-/*.sublime-project
-/*.sublime-workspace
-/.gems_path
-/.gemtags
-/.idea
-/.project
-/.tags*
-/.tags_sorted_by_file
-
-# Local Ruby environment
-/.ruby-version
-/.sass-cache
-/log
-/spec/tmp/*
-.~lock
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
 /log/*
-/bin/*.log
 /tmp/*
 !/log/.keep
 !/tmp/.keep
 
 # Ignore Byebug command history file.
 .byebug_history
-
-# Other
-.DS_Store
-/public/packs
-/vendor/node_modules
-/vendor/*.log
-/vendor/.yarnclean
-/public/packs
-/node_modules
