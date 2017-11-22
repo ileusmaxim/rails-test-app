@@ -2,6 +2,7 @@
 lock "~> 3.10.0"
 
 set :application, "rails-test-app"
+#set :repo_url, "https://github.com/ileusmaxim/rails-test-app.git"
 set :repo_url, "git@example.com:ileusmaxim/rails-test-app.git"
 
 # Default branch is :master

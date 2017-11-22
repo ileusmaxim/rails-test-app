@@ -9,7 +9,7 @@ require "capistrano/deploy"
 # require "capistrano/scm/hg"
 # install_plugin Capistrano::SCM::Hg
 require 'capistrano/rails'
-require 'capistrano/passenger'
+##require 'capistrano/passenger'
 require 'capistrano/bundler'
 require 'capistrano/rvm'
  set :rvm_type, :user
